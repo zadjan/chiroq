@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(216, 165, 25);
+}
+
+p {
+  width: 800px;
+  height: 300px;
+}
+.flash {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 0 9999px #000;
+}
+
+body.dark > .flash {
+  display: block;
+  pointer-events: none;
+}
+
+.butonn{
+    background-color:rgb(25, 187, 44);
+    border-radius: 30px;;
+
+}
